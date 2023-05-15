@@ -1,0 +1,68 @@
+credentials:
+  usernames:
+    admin:
+      email: admin@nerds.com
+      name: Nerd Admin (Admin)
+      role: admin
+      #password:  admin123 # To be replaced with hashed password
+      password: $2b$12$82AQ4oM99eJLEf5XLwN3quybC4xgd9nfyjbkhDQ3CmHcd.27cNREG # replaced with hashed password
+    doctor:
+      email: doctor@nerds.com
+      name: Dr. Nerd Doc (Doctor)
+      role: doctor
+      #password:  doctor123 # To be replaced with hashed password
+      password: $2b$12$OepwiWh.bWkcHzw4xih5feRCsq3zCFg19IUi2W8wXzuGGGgC7faSe # replaced with hashed password
+    nurse:
+      email: nurse@nerds.com
+      name: Nerd Nurse (Nurse)
+      role: nurse
+      #password:  nurse # To be replaced with hashed password
+      password: $2b$12$jPEGIBLCYkiHF7JqydbQ2.LYIPXAIjg6Vs32BgqqBLbtG01gEVeZK # replaced with hashed password
+    surya:
+      email: surya@nerds.com
+      name: Surya Dev Singh Jamwal (User)
+      role: user
+      #password:  surya123 # To be replaced with hashed password
+      password: $2b$12$pDg29GGJV/.rUFHTqYEzHOk.NiVfTKQlPrb1u.ObvdEcpT.5lcFdu # replaced with hashed password
+    swapnil:
+      email: swapni@nerds.com
+      name: Swapnil Abane (User)
+      role: user
+    # #password:  swapnil123 # To be replaced with hashed password
+      password: $2b$12$LPDNOviLhe.n64zU/rJtv.twlikH/.HkBiT68wMaxIl1cebcvyoZy # replaced with hashed password
+    vaibhav:
+      email: vaibhav@nerds.com
+      name: Vaibhav Khandekar (User)
+      role: user
+      #password:  vaibhav123 # To be replaced with hashed password
+      password: $2b$12$HHycWs3ffOZaLQY0KheN4ejknKWgIT7qyhaowMj87MVU6tk0ms51i # replaced with hashed password
+    tejaswini:
+      email: tejaswini@nerds.com
+      name: Tejaswini Dhote (User)
+      role: user
+      #password:  tejaswini123 # To be replaced with hashed password
+      password: $2b$12$Z9Y0cU8ribqPAvL.vSVhDer3JczlD9QJ2wrRqf2p5ya1GUDA4TlJq # replaced with hashed password
+    usha:
+      email: usha@nerds.com
+      name: Usha Amale (User)
+      role: user
+      #password:  usha123 # To be replaced with hashed password
+      password: $2b$12$zP0hO.0xNSoPgEWbu.t75OZLb/.qBtA6RogtEciYrG8t2YJCrnXUu # replaced with hashed password
+    ushashree:
+      email: ushashree@nerds.com
+      name: Ushashree Shripati (User)
+      role: user
+      #password:  ushashree123 # To be replaced with hashed password
+      password: $2b$12$mU43fYLWKVaqTht2hry/Gemfvm0jarrzWuWR4C/a90pNn8Cx9BCuu # replaced with hashed password
+cookie:
+  expiry_days: 30
+  key: nerd_signature_key # Must be string
+  name: nerd_cookie_name
+preauthorized:
+  emails:
+  - admin@nerds.com
+
+
+
+
+  # st.markdown("""    © Evaluation Nerds Mar-2023""" )
